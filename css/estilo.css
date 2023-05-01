@@ -1,0 +1,332 @@
+*{
+margin:0;
+padding: 0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+    box-sizing: border-box;
+margin-left:auto;
+    margin-right: auto;}
+body { height: 2000px;
+	width: 720px;
+    font-family: General, sans-serif; margin: 0;
+    background-attachment: fixed;
+	margin-left:auto;
+    margin-right: auto;
+
+}
+
+h1{
+    text-align: center;
+    color: #000000;
+    font-family: The Brithney, serif;
+    font-size: 54px;
+    margin: 1px;
+    padding: 1px;
+    
+}
+.formulario{background-size: cover;
+    background-attachment: fixed;
+    background: #FFFFFF;
+    text-align: center;
+    width: 720px;
+    height: 1280px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+h2 { font-family:Minion Pro, serif;
+text-align: center;
+    color: #000000 ;
+    font-size: 36px;
+    margin: 1px;
+    padding: 1px;
+ }
+
+ h3{ font-family:Harrington, serif;
+text-align: center;
+    color: #000000 ;
+    font-size: 72px;
+    margin: 1px;
+    padding: 1px;
+}
+
+	
+	.cartel {
+    width: 110px;
+    height: 110px;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 5px;
+}
+.cartel>div{
+    font-size: 20px;
+    font-family: Minion Pro, serif;
+    animation: fade 3s;
+    margin-top: 5px;
+}
+.cartel>div>h3 {
+    margin-top: 15px;
+    font-size: 10px;
+    font-weight: normal;
+}
+.h3 {
+    bottom: 0;
+    margin: 0 auto;
+    font-size: 10px;
+}
+.contenedor {
+    margin-top: -10px;
+    color: #000000;
+    text-align: center;
+    float: none;
+    clear: none;
+}
+.contenido {
+  width: 80%;
+}
+li {
+    display: inline-block;
+    font-size: 1em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+li span {
+    display: block;
+    font-size: 3.5rem;
+}
+.numeros {
+  font-family:Harrington, serif;
+  font-size: 71px;
+  transition: .3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+.responsivo1 {
+  display: inline-block
+}
+.responsivo2 {
+  display: inline-block
+	}
+  .contenedor {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .banner {
+   margin-bottom: 30px; 
+  }
+  .cartel {
+    height: 99px;
+    width: 99px;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .cartel>div{
+    font-size: 30px;
+    margin-right: 0px;
+  }
+  .cartel>div>h3 {
+    font-size: 10px;
+    margin-top: 0px;
+  }
+
+@keyframes fade {
+    0%   {
+      opacity: 0;
+  }
+    30%   {
+      opacity: 0;
+  }  
+    100% {
+      opacity: 1;
+  }
+}.acomodo {
+    margin-left: 210px;
+    margin-right: 210px;
+    width: 300px;
+}
+.separacion1 {
+    margin-top: 30px;
+    width: 300px;
+}
+.separacion2 {
+    font-size: 72px;
+}
+.cambio {
+    font-size: 26px;
+    width: 300px;
+}
+.separacion3 {
+    font-size: 20px;
+    margin-top: 30px;
+    width: 300px;
+}
+.tempo {
+    font-size: 60px;
+    margin-top: 5px;
+}
+.detalles {
+    margin-left: 220px;
+    width: 100px;
+    height: auto;
+    float: none;
+    clear: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 14px;
+}
+.detalles2 {
+    width: 100px;
+    height: auto;
+    float: none;
+    clear: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-top: 14px;
+    margin-right: 0px;
+    margin-left: 400px;
+}
+.modificacion {
+    float: none;
+    clear: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    padding-left: 0px;
+    margin-left: 488px;
+    margin-top: 80px;
+    height: 360px;
+}
+.iglesia {
+    float: none;
+    clear: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 300px;
+    margin-left: 25px;
+    border-radius: 186px;
+    height: 300px;
+}
+.salon {
+    float: none;
+    clear: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 300px;
+    margin-right: 75px;
+    margin-left: 400px;
+    border-radius: 186px;
+    height: 300px;
+    margin-top: 0px;
+}
+.cuadrodetexto{
+    float: none;
+    clear: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 302px;
+    height: 240px;
+    text-align: center;
+}
+h4{ font-family: The Brithney, serif;
+    font-size: 60px; 
+text-align: center;}
+p{ font-family: Minion Pro, serif;
+    font-size:18px; text-align: center;}
+.missa {
+    margin-top: 308px;
+    margin-left: 25px;
+}
+.recespcion {
+    margin-top: 308px;
+    margin-left: 400px;
+}
+.familia {float: none;
+    clear: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 234px;
+    height: 154px;
+	text-align: center;
+}
+.asistencia {
+    float: none;
+    clear: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 370px;
+    height: 284px;
+    text-align: center;
+    margin-top: 970px;
+    margin-left: 32px;
+}
+.papa {
+    margin-left: 246px;
+    margin-top: 560px;
+}
+.paaa {
+    font-size: 48px;
+}
+.psss {
+    font-size: 30px;
+}
+.mama {
+    margin-top: 560px;
+    margin-left: 480px;
+}
+.padrinoo {
+    margin-top: 740px;
+    margin-left: 246px;
+}
+.madrina {
+    padding-top: 0px;
+    margin-top: 740px;
+    margin-left: 480px;
+
+}
+.modificacion2 {
+    float: none;
+    clear: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    padding-left: 0px;
+    margin-left: 5px;
+    margin-top: 560px;
+    height: 360px;
+}
+.modificacion3 {
+    float: none;
+    clear: none;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    padding-left: 0px;
+    margin-left: 430px;
+    margin-top: 930px;
+    height: 340px;
+}
+.asistenciaaaaa {
+    font-size: 116px;
+}
+.asistir {
+    font-size: 20px;
+    margin-left: 0px;
+}
+.tttttt {
+    width: 100px;
+    margin-left: 22px;
+    float: right;
+}
